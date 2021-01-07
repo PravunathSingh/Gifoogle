@@ -8,6 +8,8 @@ Features:
 
 - Search for Gifs using phrases, sentences or tags.
 
+The project can be found live [here] (https://gifoogle.netlify.app)
+
 ## Available Scripts
 
 In the project directory, you can run:
