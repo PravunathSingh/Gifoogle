@@ -14,7 +14,7 @@ class SearchGif extends Component {
     onGifSearch = (dispatch, e) => {
         e.preventDefault();
 
-        axios.get(`https://api.giphy.com/v1/gifs/search?api_key=0uMselzUyP89MZ3WBoni3gc3xpnfEc9b&q=${this.state.gifQuery}&limit=30&offset=0&rating=g&lang=en`)
+        axios.get(`https://api.giphy.com/v1/gifs/search?api_key=0uMselzUyP89MZ3WBoni3gc3xpnfEc9b&q=${this.state.gifQuery}&limit=30&offset=0&rating=r&lang=en`)
             .then(res => {
                 dispatch({
                     type: 'SEARCH_GIF',
